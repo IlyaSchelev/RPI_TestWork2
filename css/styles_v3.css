@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.fitness-tracker-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.fitness-tracker-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+  
+.fitness-tracker-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+  
+.fitness-tracker-content > * {
+    margin-bottom: 20px;
+}
+
+.workout-form, .filters, .workouts-list {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.workout-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Главный контейнер */
+.fitness-tracker-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+/* Контент внутри главного контейнера */
+.fitness-tracker-content > * {
+    margin-bottom: 20px;
+}
+
+/* Фильтры, форма и список тренировок */
+.workout-form, .workout-filter, .workouts-list {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.workouts-list {
+    margin: 20px 0;
+    padding: 0;
+}
+  
+.workouts-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.workout-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.workout-details {
+    font-size: 1rem;
+    color: #333;
+}
+  
+.delete-workout {
+    width: 10%;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.delete-workout:hover {
+    background-color: #c0392b;
+}
+  
+.workout-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+}
+
+.workout-card:hover {
+    background-color: #f1f1f1;
+}
+
+.workout-card .delete-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
